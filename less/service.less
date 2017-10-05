@@ -1,0 +1,163 @@
+@import "basic.less";
+.service {
+    #header {
+        position: absolute;
+        width: 100%;
+    }
+    #content {
+        .header {
+            background-image: url(http://dummyimage.com/1920x1080/eee/ddd);
+            &.black {
+                .title,
+                #breadcrumbs li {
+                    color: black;
+                }
+            }
+        }
+        .special-services {
+            padding: 100px 0;
+            .title {
+                margin-bottom: 5px;
+                font-size: 16px;
+                color: @branding-color;
+            }
+            .subtitle {
+                margin: 0;
+                font-size: 18px;
+                font-weight: normal;
+                text-transform: uppercase;
+            }
+            p {
+                margin-bottom: 30px;
+            }
+            .title-block {
+                margin-bottom: 30px;
+            }
+        }
+        .special-offer {
+            padding: 60px 0;
+            .promo-info {
+                float: left;
+            }
+            .promo-button {
+                float: right;
+                margin: 0;
+            }
+            .title {
+                margin-bottom: 10px;
+                font-size: 18px;
+                letter-spacing: 1px;
+                em {
+                    font-style: normal;
+                    color: @branding-color;
+                }
+            }
+            .desc {
+                color: @gray-text;
+            }
+        }
+        .feature-item {
+            position: relative;
+            margin-bottom: 80px;
+            padding-left: 80px;
+            .icon {
+                position: absolute;
+                left: 0;
+                top: 0;
+                font-size: 36px;
+            }
+            .title {
+                margin-bottom: 20px;
+                font-size: 18px;
+            }
+            .desc {
+                color: @gray-text;
+            }
+        }
+    }
+    .services,
+    .feature,
+    .pricing {
+        padding: 100px 0;
+    }
+    .services {
+        .row {
+            > div {
+                padding: 50px;
+                &:hover {
+                    background: #222;
+                    color: white;
+                    i {
+                        color: @branding-color;
+                    }
+                }
+            }
+        }
+    }
+    .big-dot {
+        li {
+            float: left;
+            margin-bottom: 10px;
+            width: 50%;
+            line-height: 1.5;
+            &:before {
+                font-family: "fontello";
+                content: '\e810';
+                padding-right: 10px;
+                color: #757575;
+            }
+        }
+    }
+    .pricing {
+        .package {
+            padding: 0 15px;
+            text-align: center;
+            .box {
+                border: 1px solid #e8e8e8;
+                padding: 50px;
+            }
+            .name {
+                margin: 0;
+                margin-bottom: 30px;
+                font-size: 16px;
+                font-weight: normal;
+                text-transform: uppercase;
+                letter-spacing: 2px;
+            }
+            .value {
+                margin-bottom: 40px;
+                border-top: 1px solid #e5e5e5;
+                border-bottom: 1px solid #e5e5e5;
+                padding: 25px 0;
+            }
+            .price {
+                font-size: 42px;
+            }
+            .decimal {
+                margin-left: -10px;
+                font-size: 16px;
+            }
+            .duration {
+                text-transform: uppercase;
+            }
+            .features li {
+                margin-bottom: 15px;
+            }
+            &.recommended {
+                .box {
+                    background-color: #222;
+                    color: white;
+                }
+                .name {
+                    color: @branding-color;
+                }
+                .value {
+                    border-color: rgba(255, 255, 255, .2);
+                }
+                .features {
+                    color: #7d7d7d;
+                }
+            }
+        }
+    }
+}
