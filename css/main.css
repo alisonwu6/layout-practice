@@ -1,6 +1,6 @@
 .about #content .feature {
     padding: 100px 0;
-    background: url(http://lorempixel.com/1920/1080/);
+    background: url(https://picsum.photos/1920/1080/);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -187,7 +187,7 @@
 
 .decor .event {
     padding: 150px 0;
-    background-image: url(http://lorempixel.com/1920/1080);
+    background-image: url(https://picsum.photos/1920/1080);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
@@ -879,7 +879,7 @@ p {
 
 #content div.header {
     padding: 200px 0;
-    background-image: url(http://lorempixel.com/1920/1080/);
+    background-image: url(https://picsum.photos/1920/1080/);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
@@ -1087,7 +1087,7 @@ p {
 
 .event {
     padding: 150px 0;
-    background-image: url(http://lorempixel.com/1920/1080);
+    background-image: url(https://picsum.photos/1920/1080);
     -webkit-background-size: cover;
     background-size: cover;
     background-position: 50% 50%;
